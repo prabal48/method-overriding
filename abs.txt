@@ -1,0 +1,11 @@
+//method overriding
+class Test{
+public void m1(){
+System.out.println("prabal");}}
+class Test1 extends Test{
+public void m1(){
+System.out.println("shanu");}}
+class Demo{
+public static void main(String[] args){
+Test1 T=new Test1();
+T.m1();}}
